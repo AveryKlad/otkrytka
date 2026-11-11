@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Открытка для сестры 💌</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="book-scene">
+    <div class="book" id="book">
+
+      <!-- ОБЛОЖКА (одна страница по центру) -->
+      <div class="page cover" id="cover">
+        <img src="images/cover.jpg" alt="Обложка" class="page-img" />
+        <p class="hint">Нажми, чтобы открыть →</p>
+      </div>
+
+      <!-- РАЗВОРОТ 1 -->
+      <div class="spread" data-spread="1">
+        <div class="page-half">
+          <img src="images/page1.jpg" alt="Страница 1" class="page-img" />
+        </div>
+        <div class="page-half">
+          <img src="images/page2.jpg" alt="Страница 2" class="page-img" />
+        </div>
+      </div>
+
+      <!-- РАЗВОРОТ 2 -->
+      <div class="spread" data-spread="2">
+        <div class="page-half">
+          <img src="images/page3.jpg" alt="Страница 3" class="page-img" />
+        </div>
+        <div class="page-half">
+          <img src="images/page4.jpg" alt="Страница 4" class="page-img" />
+        </div>
+      </div>
+
+    </div>
+
+    <button class="nav-btn prev" id="prevBtn" aria-label="Назад">‹</button>
+    <button class="nav-btn next" id="nextBtn" aria-label="Вперёд">›</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
